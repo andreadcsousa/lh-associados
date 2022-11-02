@@ -128,6 +128,23 @@ address i {
   padding: .6rem;
 }
 
+.mail {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.fa-arrow-up-right-from-square {
+  background-color: transparent;
+  color: #000000;
+}
+
+.social-title {
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
 .social img {
   width: 5rem;
   height: 5rem;
@@ -137,7 +154,7 @@ address i {
   transform: translateY(-3px);
 }
 
-
+/* back to top ------------------------------------- */
 .back-to-top {
   background: #000000;
   color: #ffffff;
