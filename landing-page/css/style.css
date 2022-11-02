@@ -71,6 +71,10 @@ li {
   padding: 1rem 2rem;
 }
 
+.button i {
+  padding-right: 1rem;
+}
+
 .button:hover {
   border: 3px solid #c4242c;
   background-color: #000000;
@@ -84,15 +88,14 @@ footer {
 
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 
-  grid-auto-flow: column;
   position: fixed;
   bottom: 0;
 }
 
 footer img {
-  height: 150px;
+  height: 15rem;
 }
 
 .bot-menu ul {
@@ -101,7 +104,7 @@ footer img {
 }
 
 .bot-menu li {
-  padding: .5rem;
+  padding: .4rem;
 }
 
 .bot-menu a {
@@ -115,7 +118,6 @@ footer img {
 }
 
 address p {
-  padding: .5rem;
   color: #ffffff;
   display: inline;
 }
@@ -125,6 +127,16 @@ address i {
   border-radius: 50%;
   padding: .6rem;
 }
+
+.social img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.social img:hover {
+  transform: translateY(-3px);
+}
+
 
 .back-to-top {
   background: #000000;
