@@ -67,3 +67,31 @@ footer {
   .social img:hover {
     transform: translateY(-3px);
   }
+
+  /* arrow-up ---------------------------------------- */
+.back-to-top {
+  background: #d3d3d355;
+  color: #000000;
+
+  position: fixed;
+  right: 3rem;
+  bottom: 1rem;
+
+  padding: 1rem;
+  clip-path: circle();
+
+  font-size: 2rem;
+  line-height: 0;
+
+  visibility: hidden;
+  opacity: 0;
+
+  transition: 0.3s;
+  transform: translateY(100%);
+}
+
+.back-to-top.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}

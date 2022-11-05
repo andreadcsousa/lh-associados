@@ -1,0 +1,18 @@
+.servicos {
+    padding: 7rem;
+    margin: 0 auto;
+    background: #d3d3d3;
+}
+
+.servicos h2 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 3rem;
+}
+
+.servicos p {
+    width: 70%;
+    margin: 0 auto;
+    line-height: 3rem;
+}
