@@ -80,6 +80,158 @@ li {
   background-color: #000000;
 }
 
+/* main ------------------------------------------ */
+
+main{
+  
+  width: 100%;
+  height: 56.25%;
+
+  margin-top: 25px;
+  margin-bottom: 300px;
+
+  border: 1px solid blue;
+
+}
+
+#home h2{
+
+  margin-bottom: 25px;
+  font-size: 4.5rem;
+  font-weight: bold;
+
+}
+
+#home{
+
+  width: 80%;
+  height: 56.25%;
+  margin:auto;
+
+  text-align: center;
+  
+  border: 1px solid red;
+
+}
+
+home{
+
+  width: 70%;
+  height: 56.25%;
+
+  display: block;
+  margin:auto;
+
+  border-radius: 8px;
+  box-shadow: 1px 8px 2px 1px;
+
+  border: 1px solid green;
+
+}
+
+#empresa{
+
+  width: 80%;
+  height: 56.25%;
+  margin:auto;
+
+  text-align: center;
+
+
+}
+
+#empresa h2{
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 4.5rem;
+  font-weight: bold;
+
+}
+
+
+#empresa h3{
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+
+
+}
+
+#lh-associados{
+
+  font-size: 4.5rem;
+  font-weight: bold;
+
+}
+
+#empresa p{
+
+  text-align: left;
+
+}
+
+.img-processo{
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+.elementor-button-wrapper{
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+.elementor-button-link{
+
+  margin-top: 50px;
+
+  background-color: #C4242C;
+  border-radius: 50px;
+  padding: 2.2rem;
+
+  color: white;
+  font-size: 20px;
+
+}
+
+.elementor-button-link:hover{
+
+  border: 4px solid #C4242C;
+  background-color: black;
+
+}
+
+#serviços{
+
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 80%;
+  height: 56.25%;
+  margin:auto;
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  text-align: center;
+  
+}
+
+.box-services{
+
+  width: 500px;
+
+}
+
+
+
 /* footer ------------------------------------------ */
 footer {
   background-color: #c4242c;
