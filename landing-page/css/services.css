@@ -16,3 +16,81 @@
     margin: 0 auto;
     line-height: 3rem;
 }
+
+/* grid ---------------------------------------- */
+.grid {
+    display: grid;
+    grid-template-columns: 48% 25% 25%;
+    grid-template-rows: 2fr 0fr;
+    grid-column-gap: .5rem;
+    grid-row-gap: .5rem;
+
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.grid h3 {
+    background: #c4242c;
+    color: #fdfdfd;
+    padding: .6rem;
+    text-align: center;
+    width: 100%;
+}
+
+.grid h3:hover {
+    background: #00000099;
+}
+
+.consultoria {
+    background: url('/img/consultoria.jpg') center / cover no-repeat;
+    grid-row: 1;
+    height: 50rem;
+}
+
+.assessoria {
+    background: url('/img/assessoria.jpg') center / cover no-repeat;
+    grid-row: 1;
+    height: 50rem;
+}
+
+.auditoria {
+    background: url('/img/auditoria.jpg') right center/ cover no-repeat;
+    grid-row: 1;
+    height: 50rem;
+}
+
+.caixa {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+.grid ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+    margin: 2rem 0;
+}
+
+.grid i {
+    color: #000000;
+    margin-right: .5rem;
+}
+
+.consultoria-tipos {
+    background: #c4242c99;
+    color: #ffffff;
+    grid-row: 2;
+}
+
+.assessoria-tipos {
+    background: #c4242c99;
+    color: #ffffff;
+    grid-row: 2;
+}
+
+.auditoria-tipos {
+    background: #c4242c99;
+    color: #ffffff;
+    grid-row: 2;
+}
