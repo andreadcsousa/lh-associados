@@ -1,5 +1,5 @@
 .empresa {
-    padding: 7rem;
+    padding: 5rem;
     width: 70%;
     margin: 0 auto;
 }
@@ -13,7 +13,7 @@
 
 .empresa h3 {
     margin-top: 1rem;
-    padding: 1rem 0;
+    padding: .8rem 0;
     text-transform: capitalize;
 }
 

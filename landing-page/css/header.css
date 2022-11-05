@@ -84,12 +84,12 @@ li {
 .home {
   height: calc(100vh - 130px);
   text-align: center;
-  padding: 7rem;
+  padding: 6rem;
   background-color: #d3d3d3;
 }
 
 h1 {
   font-size: 4rem;
   font-weight: 700;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
 }
