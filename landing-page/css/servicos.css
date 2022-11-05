@@ -1,0 +1,41 @@
+
+
+.servicos{
+
+    max-width: 1200px;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    
+    margin: auto;
+
+    
+    
+
+    
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 180px;
+    height: 129px;
+    
+    margin-bottom: -25px;
+}
+
+.box-services{
+
+    width: 400px;
+    height: 200px;
+
+
+}
