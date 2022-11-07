@@ -1,0 +1,100 @@
+.contato {
+    padding: 5rem;
+    margin: 0 auto;
+    background: #d3d3d3;
+}
+
+.contato h2 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 3rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 48% 25% 25%;
+    grid-template-rows: 1fr 0fr 0fr;
+    grid-column-gap: .5rem;
+    grid-row-gap: .5rem;
+
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.contato h3 {
+    padding: .8rem 0;
+    text-transform: uppercase;
+}
+
+.contato h3:hover {
+    background: #00000099;
+}
+
+.orcamento {
+    background: url('/img/orcamento.jpg') center / cover no-repeat;
+}
+
+.parceria {
+    background: url('/img/parceria.jpg') center / cover no-repeat;
+}
+
+.newsletter {
+    background: url('/img/newsletter.jpg') center/ cover no-repeat;
+}
+
+.caixa {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+.contato p {
+    line-height: 3rem;
+    text-align: center;
+}
+
+.formulario form {
+    background: #c4242c99;
+    padding: 2rem;
+    height: 20rem;
+}
+
+.formulario label, .formulario i {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.formulario .text {
+    height: 3rem;
+    width: 60%;
+    border-radius: 3rem;
+    border: 2px solid transparent;
+    background: #d3d3d3;
+}
+
+.formulario .radio {
+    margin-left: 1rem;
+}
+
+.formulario input::placeholder {
+    color: #000000;
+    padding-left: 1rem;
+}
+
+.formulario textarea {
+    width: 100%;
+    border-radius: 3rem;
+    border: 2px solid transparent;
+    background: #d3d3d3;
+    margin-bottom: 1rem;
+}
+
+.formulario button {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    float: right;
+    cursor: pointer;
+}

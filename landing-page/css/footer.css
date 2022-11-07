@@ -1,74 +1,91 @@
 footer {
-    background-color: #c4242c;
-    width: 100%;
-    height: 20rem;
-  
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  
-  footer img {
-    height: 15rem;
-  }
-  
-  .bot-menu ul {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .bot-menu li {
-    padding: .4rem;
-  }
-  
-  .bot-menu a {
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 1.8rem;
-  }
-  
-  .bot-menu a:hover {
-    color: #000000;
-  }
-  
-  address p {
-    color: #ffffff;
-    display: inline;
-  }
-  
-  address i {
-    background-color: #ffffff;
-    border-radius: 50%;
-    padding: .6rem;
-  }
-  
-  .mail {
-    color: #ffffff;
-    text-decoration: underline;
-  }
-  
-  .fa-arrow-up-right-from-square {
-    background-color: transparent;
-    color: #000000;
-  }
-  
-  .social-title {
-    color: #ffffff;
-    font-size: 2rem;
-    text-align: center;
-    padding-bottom: 2rem;
-  }
-  
-  .social img {
-    width: 5rem;
-    height: 5rem;
-  }
-  
-  .social img:hover {
-    transform: translateY(-3px);
-  }
+  background-color: #c4242c;
+  width: 100%;
+  height: 20rem;
 
-  /* arrow-up ---------------------------------------- */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer img {
+  height: 15rem;
+}
+
+.bot-menu ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.bot-menu li {
+  padding: .4rem;
+}
+
+.bot-menu a {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.bot-menu a:hover {
+  color: #000000;
+}
+
+address p {
+  color: #ffffff;
+  display: inline;
+}
+
+address i {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: .6rem;
+}
+
+.mail {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.fa-arrow-up-right-from-square {
+  background-color: transparent;
+  color: #000000;
+}
+
+.social-title {
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.social img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.social img:hover {
+  transform: translateY(-3px);
+}
+
+.madeby {
+  background: #ffffff;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+/* assinatura -------------------------------------- */
+.madeby a {
+  color: #000000;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.madeby i:hover {
+  color: #c4242c;
+}
+
+/* arrow-up ---------------------------------------- */
 .back-to-top {
   background: #d3d3d355;
   color: #000000;
