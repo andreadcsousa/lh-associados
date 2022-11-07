@@ -32,15 +32,15 @@
 }
 
 .orcamento {
-    background: url('/img/orcamento.jpg') center / cover no-repeat;
+    background: url('../img/orcamento.jpg') center / cover no-repeat;
 }
 
 .parceria {
-    background: url('/img/parceria.jpg') center / cover no-repeat;
+    background: url('../img/parceria.jpg') center / cover no-repeat;
 }
 
 .newsletter {
-    background: url('/img/newsletter.jpg') center/ cover no-repeat;
+    background: url('../img/newsletter.jpg') center/ cover no-repeat;
 }
 
 .caixa {
