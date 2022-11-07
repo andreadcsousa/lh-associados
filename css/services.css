@@ -43,19 +43,19 @@
 }
 
 .consultoria {
-    background: url('/img/consultoria.jpg') center / cover no-repeat;
+    background: url('./img/consultoria.jpg') center / cover no-repeat;
     grid-row: 1;
     height: 50rem;
 }
 
 .assessoria {
-    background: url('/img/assessoria.jpg') center / cover no-repeat;
+    background: url('./img/assessoria.jpg') center / cover no-repeat;
     grid-row: 1;
     height: 50rem;
 }
 
 .auditoria {
-    background: url('/img/auditoria.jpg') right center/ cover no-repeat;
+    background: url('./img/auditoria.jpg') right center/ cover no-repeat;
     grid-row: 1;
     height: 50rem;
 }
