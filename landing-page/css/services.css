@@ -94,3 +94,14 @@
     color: #ffffff;
     grid-row: 2;
 }
+
+legend {
+    font-size: .5rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+legend a {
+    color: #000000;
+    font-weight: 400;
+}
